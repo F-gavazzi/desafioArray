@@ -6,7 +6,7 @@ function changePosition(numbers, from, to) {
     numbers.splice(to, 0, numbers.splice(from, 1)[0]);
     return numbers;
 };
-let length= numbers.length;
+
 numbers = changePosition(numbers, numbers.length -1, 2);
 console.log(numbers);
 
